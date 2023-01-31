@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\Vipera.h" />
+    <ClInclude Include="src\hzpch.h" />
+    <ClInclude Include="src\Window.h" />
+    <ClInclude Include="src\Helpers.h" />
+    <ClInclude Include="src\Platform\D3D12RendererAPI.h" />
+    <ClInclude Include="src\Platform\D3D11RendererAPI.h" />
+    <ClInclude Include="src\GameObject.h" />
+    <ClInclude Include="src\Device.h" />
+    <ClInclude Include="src\GameTimer.h" />
+    <ClInclude Include="src\Application.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\hzpch.cpp" />
+    <ClCompile Include="src\Vipera.cpp" />
+    <ClCompile Include="src\Window.cpp" />
+    <ClCompile Include="src\GameObject.cpp" />
+    <ClCompile Include="src\Device.cpp" />
+    <ClCompile Include="src\GameTimer.cpp" />
+    <ClCompile Include="src\Application.cpp" />
+  </ItemGroup>
+</Project>
